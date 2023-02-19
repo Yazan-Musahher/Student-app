@@ -9,6 +9,16 @@ export default function HomeScreen({ navigation }) {
                 <Text style={styles.title}>Student Management System</Text>
             </View>
             <View style={styles.content}>
+                
+                 <View style={styles.buttonContainer}>
+                    <TouchableOpacity
+                        style={styles.button}
+                        onPress={() => navigation.navigate("View All Course")}
+                    >
+                        <Text style={styles.buttonText}>View All Course</Text>
+                    </TouchableOpacity>
+                </View>
+                
                 <View style={styles.buttonContainer}>
                     <TouchableOpacity
                         style={styles.button}

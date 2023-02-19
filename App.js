@@ -6,6 +6,7 @@ import ViewScreen from './Component/ViewScreen';
 import AddScreen from './Component/AddScreen';
 import EditScreen from './Component/EditScreen';
 import DeleteScreen from './Component/DeleteScreen';
+import CourseScreen from './Component/CourseScreen'
 
 
 
@@ -21,6 +22,10 @@ export default function App() {
                 name="Home"
                 component={HomeScreen}
                 options={{title: "Welcome to Student app"}}
+            />
+            <Stack.Screen
+                name="View All Course"
+                component={CourseScreen}
             />
             <Stack.Screen
                 name="View All Student"
