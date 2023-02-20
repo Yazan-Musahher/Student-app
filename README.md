@@ -1,2 +1,2 @@
 # Student-app
-based on React native expo
+Simpel project that based on react native expo, where you can view all student and courses from firebase database and edit details also delet as well. 
