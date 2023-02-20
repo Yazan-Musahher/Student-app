@@ -3,7 +3,8 @@ Simpel project that based on react native expo, where you can view all student a
 
 to try out that application you need to install following:
 
-- npx expo install 
+- npx expo install
+- npx expo start 
 
 ![Screenshot from 2023-02-20 14-06-42](https://user-images.githubusercontent.com/38183812/220117134-319d056d-2050-4bc3-bf40-77c4886850bd.png)
 
